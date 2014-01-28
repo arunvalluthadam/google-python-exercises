@@ -57,7 +57,6 @@ def download_images(img_urls, dest_dir):
   f.write('<html>\n<body>\n')
   imgval = 0
   for url in open(img_urls):
-#      strurl = url.strip()
       chg = '/img%d.jpg' % imgval
       print "Downloading .... ", url
 #      urllib.urlretrieve(url,dest_dir+chg)
